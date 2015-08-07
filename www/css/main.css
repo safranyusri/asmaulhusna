@@ -1,0 +1,32 @@
+.list-item-container {
+  line-height: 1.2;
+  padding: 15px 15px 15px 15px;
+}
+
+.thumbnail {
+  margin-top: 14px;
+  width: 80px;
+  height: 80px;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+}
+
+.name {
+  font-weight: 500;
+  line-height: 16px;
+  font-size: 15px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+
+.location {
+  font-size: 14px;
+  opacity: 0.4;
+  margin-bottom: 2px;
+}
+
+.desc {
+  line-height: 1.2;
+  font-size: 13px;
+  margin-bottom: 6px;
+}

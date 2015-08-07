@@ -1,0 +1,40 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "package.appxmanifest": {
+                "parents": {
+                    "/Package/Capabilities": [
+                        {
+                            "xml": "<Capability Name=\"musicLibrary\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<DeviceCapability Name=\"microphone\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "asmaulhusna"
+        },
+        "org.apache.cordova.media": {
+            "PACKAGE_NAME": "asmaulhusna"
+        },
+        "org.apache.cordova.splashscreen": {
+            "PACKAGE_NAME": "asmaulhusna"
+        }
+    },
+    "dependent_plugins": {
+        "org.apache.cordova.file": {
+            "PACKAGE_NAME": "asmaulhusna"
+        }
+    }
+}
